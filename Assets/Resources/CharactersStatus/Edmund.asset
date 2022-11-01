@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e015f521fe4296488400ef7ee037c66, type: 3}
+  m_Name: Edmund
+  m_EditorClassIdentifier: 
+  charName: Edmund
+  description: 
+  sprNormal: {fileID: 21300000, guid: dd09ca32ce1f2f243985e2899e30c103, type: 3}
+  sprAttack: {fileID: 21300000, guid: dd09ca32ce1f2f243985e2899e30c103, type: 3}
+  sprCasting: {fileID: 21300000, guid: dd09ca32ce1f2f243985e2899e30c103, type: 3}
+  sprHurt: {fileID: 21300000, guid: dd09ca32ce1f2f243985e2899e30c103, type: 3}
+  sprFallen: {fileID: 21300000, guid: dd09ca32ce1f2f243985e2899e30c103, type: 3}
+  maxHP: 0
+  maxMP: 0
+  ATK: 0
+  DEF: 0
+  INT: 0
+  RES: 0
+  SPD: 0
+  LUK: 0
+  learnableActions:
+  - spellBase: {fileID: 0}
+    level: 1
+  mainActions:
+  - mainActionBase: {fileID: 11400000, guid: 2946853a2c9e6424b9644932ebeac309, type: 2}
+    level: 0
+  - mainActionBase: {fileID: 11400000, guid: 11b8146b46fae30419021d6afbb40824, type: 2}
+    level: 0
+  - mainActionBase: {fileID: 11400000, guid: c8104a2372da1b442a60de91b8d1346d, type: 2}
+    level: 0
+  - mainActionBase: {fileID: 11400000, guid: 4d805f684388837429485c5603bea424, type: 2}
+    level: 0
+  - mainActionBase: {fileID: 11400000, guid: 7d05ed47b03f21145ba4d5d3b3ed6583, type: 2}
+    level: 0
+  - mainActionBase: {fileID: 11400000, guid: e0812cb425493324c8c5c6db2ef53e6a, type: 2}
+    level: 0
